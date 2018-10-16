@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QWidget" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="exitBT">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>550</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgb(52,104,175);
+color: white;   
+border-radius: 10px;  
+border: 1px groove gray;
+border-style: outset;
+font: 75 22pt &quot;华文新魏&quot;;}
+QPushButton:hover{
+background-color:rgb(139,165,201);
+color: rgb(190,190,190);}
+QPushButton:pressed{
+background-color:rgb(226, 226, 226);
+ border-style: inset; };</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="user">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>260</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255,255,250);
+color: black;   
+border-radius: 10px;  
+border: 0px groove black;
+border-style: outset;
+font: 75 18pt &quot;华文新魏&quot;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginBT">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>450</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{   
+border-radius: 10px;  
+border-image:url(:/materials/login_btn.png);
+border: 1px groove white;}
+QPushButton:hover{
+border-image:url(:/materials/login_btn_on.png);
+border: 1px groove white;
+border-radius: 10px; }
+QPushButton:pressed{
+border-image:url(:/materials/login_btn_press.png);
+ border-style: inset; };</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pwd">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>360</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255,255,250);
+color: black;   
+border-radius: 10px;  
+border: 0px groove black;
+border-style: outset;
+font: 75 18pt &quot;华文新魏&quot;</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="back1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/materials/background.jpg)</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>140</y>
+     <width>451</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/materials/login.png)</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>381</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/materials/map.png);
+color:black;
+border-radius:10px;  
+border: 0px black;
+border-style: outset;</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>331</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/materials/logo.png)</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="move_test">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="page"/>
+   <widget class="QWidget" name="page_2"/>
+  </widget>
+  <widget class="QRadioButton" name="remenber">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>470</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton::indicator 
+{
+    width: 30px;
+    height: 30px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>back1</zorder>
+  <zorder>move_test</zorder>
+  <zorder>graphicsView</zorder>
+  <zorder>exitBT</zorder>
+  <zorder>user</zorder>
+  <zorder>loginBT</zorder>
+  <zorder>pwd</zorder>
+  <zorder>graphicsView_2</zorder>
+  <zorder>graphicsView_3</zorder>
+  <zorder>remenber</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

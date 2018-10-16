@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/">
+        <file>materials/room.png</file>
+        <file>materials/background.jpg</file>
+        <file>materials/h-m.jpg</file>
+        <file>materials/blue_bottom.png</file>
+        <file>materials/login.png</file>
+        <file>materials/login_btn.png</file>
+        <file>materials/login_btn_on.png</file>
+        <file>materials/login_btn_press.png</file>
+        <file>materials/map.png</file>
+        <file>materials/logo.png</file>
+        <file>materials/menu.png</file>
+        <file>materials/list menu.png</file>
+        <file>materials/green button.png</file>
+        <file>materials/print bill button.png</file>
+        <file>materials/intput box.png</file>
+        <file>materials/AIR-CONDITION PHOTO.png</file>
+        <file>materials/intput box2.png</file>
+        <file>materials/photo.png</file>
+        <file>materials/DATE.png</file>
+        <file>materials/input_3.png</file>
+        <file>materials/AIR_TOP.png</file>
+        <file>materials/MOOD_COLD.png</file>
+        <file>materials/mood-empty.png</file>
+        <file>materials/MOOD_HOT.png</file>
+        <file>materials/cool_btn.png</file>
+        <file>materials/down_btn.png</file>
+        <file>materials/warm_btn.png</file>
+        <file>materials/up_btn.png</file>
+        <file>materials/arrow_1.png</file>
+        <file>materials/arrow_2.png</file>
+        <file>materials/arrow_3.png</file>
+        <file>materials/heart.png</file>
+        <file>materials/home_btn.png</file>
+        <file>materials/menu_btn.png</file>
+        <file>materials/view.png</file>
+        <file>materials/jump.gif</file>
+        <file>materials/warning.png</file>
+        <file>materials/warning2.png</file>
+        <file>materials/chart.png</file>
+        <file>materials/icon.png</file>
+        <file>materials/message.png</file>
+        <file>materials/view2.png</file>
+        <file>materials/view3.png</file>
+        <file>materials/view4.png</file>
+        <file>materials/view5.png</file>
+    </qresource>
+</RCC>
